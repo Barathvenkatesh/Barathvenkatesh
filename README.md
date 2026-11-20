@@ -1,19 +1,7 @@
 <!--
-  ============================================================================
-  ✦  PROFESSIONAL GITHUB PROFILE — READ ME FIRST
-  ----------------------------------------------------------------------------
-  This file renders on https://github.com/Barathvenkatesh
-  because the repository MUST be named exactly: Barathvenkatesh/Barathvenkatesh
-
-  Before publishing, run setup/publish.ps1 — it replaces these placeholders:
-    Barathvenkatesh   -> your GitHub username
-    Barath Venkatesh       -> your display name
-    Barathvenkatesh       -> your name without spaces (links / handles)
-    Barathvenkatesh@users.noreply.github.com      -> your public email
-    India       -> your location
-    Barathvenkatesh   -> your LinkedIn slug
-    Barathvenkatesh    -> your X / Twitter handle
-  ============================================================================
+  Professional GitHub profile — renders at https://github.com/Barathvenkatesh
+  This works because the repository is named exactly: Barathvenkatesh/Barathvenkatesh
+  See SETUP.md for how to customize and publish updates.
 -->
 
 <div align="center">
