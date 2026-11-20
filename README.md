@@ -31,28 +31,39 @@
 
 ## 🧑‍💻 About Me
 
-> **I turn coffee into clean code and ideas into working software.**
+> **"I like turning *what if* into *it's running*."**
 
-I'm **Barath Venkatesh** — a developer who enjoys building things that are both *useful* and *well-crafted*. My sweet spot is the intersection of **Python backends**, **real-time web apps**, and **thoughtful UI**. I started with college lab experiments (prime checkers, loops, conditionals) and quickly realized I liked shipping complete products — so I built a **real-time collaborative whiteboard** with WebSockets and haven't looked back.
+I'm **Barath Venkatesh** — a Python-first developer who went from writing college lab scripts to building **real-time, multi-user web apps**. In every project I care about three things: it should actually work, the code should be readable, and the interface should feel considered.
 
-Right now I'm focused on growing as a **full-stack developer**, contributing to open source, and documenting everything I learn along the way.
+**How I got here**
+
+- 🧪 **Fundamentals** — loops, functions, file I/O, and a prime-number checker that taught me to think about *correctness before optimization*
+- 🌐 **Backend & web** — a Python web server, Flask + Socket.IO, and a collaborative whiteboard where teams draw together live in shared rooms
+- 🏆 **Hackathons** — **SIH-26033**, a Smart India Hackathon build, where I learned to ship something real under a deadline
+- 📚 **Right now** — leveling up in web architecture, databases, and deployment while documenting the journey in public
+
+I do my best work when the problem is slightly bigger than my current skill set — that's usually where the interesting learning happens.
 
 <table>
   <tr>
     <td>🎯 <b>Current focus</b></td>
-    <td>Full-stack development · Flask · Socket.IO · Data structures</td>
+    <td>Full-stack development · Flask · WebSockets · Data structures</td>
   </tr>
   <tr>
     <td>📍 <b>Based in</b></td>
     <td>India</td>
   </tr>
   <tr>
-    <td>🎓 <b>Journey</b></td>
-    <td>Computer Science student → self-taught builder</td>
+    <td>🎓 <b>Background</b></td>
+    <td>College CS labs → self-directed projects &amp; hackathons</td>
+  </tr>
+  <tr>
+    <td>🏆 <b>Highlight</b></td>
+    <td>Smart India Hackathon (SIH-26033) + real-time collaborative whiteboard</td>
   </tr>
   <tr>
     <td>⚡ <b>Superpower</b></td>
-    <td>Turning a vague idea into a running demo, fast</td>
+    <td>Turning a vague idea into a working demo, fast</td>
   </tr>
   <tr>
     <td>🤝 <b>Open to</b></td>
