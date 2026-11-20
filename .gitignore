@@ -1,0 +1,16 @@
+# OS / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Local tooling (portable git/gh live outside the repo)
+.tools/
+*.zip
+
+# Python caches (in case you add helper scripts)
+__pycache__/
+*.pyc
+.venv/

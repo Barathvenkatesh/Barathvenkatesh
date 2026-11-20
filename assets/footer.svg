@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#8b5cf6"/>
+      <stop offset="0.5" stop-color="#ec4899"/>
+      <stop offset="0.75" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M0 78C120 40 240 40 360 70C480 100 600 100 720 70C840 40 960 40 1080 72C1140 86 1170 88 1200 84V120H0V78Z" fill="url(#wave)" opacity="0.22"/>
+  <path d="M0 92C150 64 270 64 420 86C570 108 720 108 870 86C1010 66 1110 68 1200 88" stroke="url(#wave)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <text x="600" y="48" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="17" font-weight="600" fill="#94a3b8" letter-spacing="1.5">
+    Thanks for scrolling — let&#39;s build something together
+  </text>
+</svg>

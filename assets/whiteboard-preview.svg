@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="460" viewBox="0 0 880 460" fill="none" role="img" aria-label="Collaborative Whiteboard preview">
+  <defs>
+    <linearGradient id="app" x1="0" y1="0" x2="880" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e293b"/>
+      <stop offset="1" stop-color="#172033"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111c34"/>
+      <stop offset="1" stop-color="#0b1425"/>
+    </linearGradient>
+    <linearGradient id="s1" x1="120" y1="120" x2="420" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B6B"/>
+      <stop offset="1" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="s2" x1="300" y1="120" x2="560" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ECDC4"/>
+      <stop offset="1" stop-color="#45B7D1"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="872" height="452" rx="14" fill="url(#app)" stroke="#26304a" stroke-width="2"/>
+
+  <!-- window chrome -->
+  <rect x="4" y="4" width="872" height="40" rx="14" fill="url(#bar)"/>
+  <rect x="4" y="30" width="872" height="14" fill="url(#bar)"/>
+  <circle cx="34" cy="24" r="6" fill="#ff5f57"/>
+  <circle cx="56" cy="24" r="6" fill="#febc2e"/>
+  <circle cx="78" cy="24" r="6" fill="#28c840"/>
+  <rect x="250" y="14" width="380" height="20" rx="10" fill="#0b1222" stroke="#2b3752"/>
+  <text x="440" y="28" text-anchor="middle" font-family="Consolas, monospace" font-size="11" fill="#7c8aa5">localhost:5000?room=team-alpha</text>
+  <rect x="668" y="12" width="70" height="24" rx="6" fill="#7c3aed"/>
+  <text x="703" y="28" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Export</text>
+  <rect x="748" y="12" width="96" height="24" rx="6" fill="#0e7490"/>
+  <text x="796" y="28" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#ffffff">3 Online</text>
+
+  <!-- canvas -->
+  <rect x="24" y="60" width="636" height="376" rx="10" fill="#0a1020" stroke="#1f2b45"/>
+  <g stroke="#ffffff" stroke-opacity="0.035">
+    <path d="M24 100H660M24 140H660M24 180H660M24 220H660M24 260H660M24 300H660M24 340H660M24 380H660M24 420H660"/>
+    <path d="M84 60V436M144 60V436M204 60V436M264 60V436M324 60V436M384 60V436M444 60V436M504 60V436M564 60V436M624 60V436"/>
+  </g>
+
+  <!-- strokes -->
+  <path d="M110 330C160 250 200 250 240 300C280 350 320 350 360 290C400 230 440 230 480 270" stroke="url(#s1)" stroke-width="9" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+  <path d="M150 130C210 160 250 110 310 140C370 170 420 120 500 150" stroke="url(#s2)" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glow)"/>
+  <rect x="250" y="200" width="150" height="96" rx="8" stroke="#FFE65D" stroke-width="6" fill="none"/>
+  <circle cx="520" cy="340" r="44" stroke="#FF8C42" stroke-width="6" fill="none"/>
+
+  <!-- cursors -->
+  <g filter="url(#glow)">
+    <path d="M600 250l0 26 6-7 6 12 8-4-6-12h9z" fill="#4ECDC4"/>
+    <path d="M420 380l0 26 6-7 6 12 8-4-6-12h9z" fill="#FF6B6B"/>
+  </g>
+  <text x="614" y="292" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#4ECDC4">Sarah</text>
+  <text x="434" y="422" font-family="Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#FF6B6B">Mike</text>
+
+  <!-- right panel -->
+  <rect x="676" y="60" width="180" height="376" rx="10" fill="url(#panel)" stroke="#1f2b45"/>
+  <text x="692" y="88" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7c8aa5" letter-spacing="1">PARTICIPANTS</text>
+
+  <circle cx="702" cy="114" r="11" fill="#FF6B6B"/>
+  <text x="720" y="118" font-family="Segoe UI, sans-serif" font-size="12" fill="#dbe4f3">Mike</text>
+  <circle cx="702" cy="146" r="11" fill="#4ECDC4"/>
+  <text x="720" y="150" font-family="Segoe UI, sans-serif" font-size="12" fill="#dbe4f3">Sarah</text>
+  <circle cx="702" cy="178" r="11" fill="#45B7D1"/>
+  <text x="720" y="182" font-family="Segoe UI, sans-serif" font-size="12" fill="#dbe4f3">You</text>
+
+  <text x="692" y="222" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7c8aa5" letter-spacing="1">COLORS</text>
+  <g>
+    <circle cx="706" cy="248" r="10" fill="#FF6B6B"/><circle cx="734" cy="248" r="10" fill="#FF8C42"/>
+    <circle cx="762" cy="248" r="10" fill="#FFE65D"/><circle cx="790" cy="248" r="10" fill="#96CEB4"/>
+    <circle cx="818" cy="248" r="10" fill="#4ECDC4"/><circle cx="706" cy="276" r="10" fill="#45B7D1"/>
+    <circle cx="734" cy="276" r="10" fill="#6C5CE7"/><circle cx="762" cy="276" r="10" fill="#A855F7"/>
+    <circle cx="790" cy="276" r="10" fill="#00CEA8"/><circle cx="818" cy="276" r="10" fill="#F97316"/>
+  </g>
+
+  <text x="692" y="320" font-family="Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#7c8aa5" letter-spacing="1">TOOLS</text>
+  <rect x="692" y="332" width="148" height="30" rx="7" fill="#1a2540" stroke="#2b3752"/>
+  <text x="710" y="351" font-family="Segoe UI, sans-serif" font-size="12" fill="#dbe4f3">Pen</text>
+  <rect x="692" y="368" width="148" height="30" rx="7" fill="#1a2540" stroke="#2b3752"/>
+  <text x="710" y="387" font-family="Segoe UI, sans-serif" font-size="12" fill="#dbe4f3">Eraser  (E)</text>
+  <rect x="692" y="404" width="148" height="30" rx="7" fill="#7f1d1d" opacity="0.75"/>
+  <text x="710" y="423" font-family="Segoe UI, sans-serif" font-size="12" fill="#fecaca">Clear  (Esc)</text>
+</svg>

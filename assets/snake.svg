@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" fill="none" role="img" aria-label="Contribution snake placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d1117"/>
+      <stop offset="0.5" stop-color="#161b2e"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="400" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="200" rx="12" fill="url(#bg)" stroke="#2b3752"/>
+  <text x="600" y="90" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="22" font-weight="600" fill="url(#txt)">
+    Your contribution snake will appear here
+  </text>
+  <text x="600" y="124" text-anchor="middle" font-family="'Segoe UI', system-ui, Arial, sans-serif" font-size="15" fill="#8b98ad">
+    It is generated automatically by .github/workflows/snake.yml after your first push
+  </text>
+</svg>

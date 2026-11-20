@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-label="Profile header">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#080c1a"/>
+      <stop offset="0.5" stop-color="#131a36"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0" cy="0" r="1" gradientTransform="translate(230 70) scale(380)">
+      <stop stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0" cy="0" r="1" gradientTransform="translate(980 250) scale(430)">
+      <stop stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g3" cx="0" cy="0" r="1" gradientTransform="translate(720 30) scale(320)">
+      <stop stop-color="#ec4899" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="420" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sub" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#grid)"/>
+  <rect width="1200" height="320" fill="url(#g1)"/>
+  <rect width="1200" height="320" fill="url(#g2)"/>
+  <rect width="1200" height="320" fill="url(#g3)"/>
+
+  <circle cx="96" cy="286" r="150" fill="url(#g1)" opacity="0.5"/>
+  <circle cx="1112" cy="34" r="170" fill="url(#g2)" opacity="0.45"/>
+
+  <text x="600" y="132" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="58" font-weight="700" fill="#ffffff" letter-spacing="1.5">Barath Venkatesh</text>
+
+  <text x="600" y="180" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="22" font-weight="500" fill="url(#sub)" letter-spacing="0.6">
+    Full-Stack Developer  •  Python · Flask · Real-Time Web
+  </text>
+
+  <rect x="420" y="208" width="360" height="2" rx="1" fill="url(#rule)"/>
+
+  <text x="600" y="248" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif"
+        font-size="16" fill="#94a3b8" letter-spacing="3">OPEN SOURCE  ·  LEARNING IN PUBLIC  ·  ALWAYS SHIPPING</text>
+</svg>
