@@ -209,7 +209,7 @@ A curated learning backlog spanning CLI tools (temperature converter, to-do list
 
 <div align="center">
 
-<a href="mailto:Barathvenkatesh@users.noreply.github.com"><img src="https://img.shields.io/badge/Email-Proof%20me%20wrong-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href=(https://github.com/Barathvenkatesh).github.com"><img src="https://img.shields.io/badge/Email-Proof%20me%20wrong-8b5cf6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email _barath" /></a>
 <a href="https://github.com/Barathvenkatesh"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
 <br /><br />
