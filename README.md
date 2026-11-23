@@ -10,7 +10,7 @@
 
 <br />
 
-<img src="assets/typing.svg" alt="Hi, I'm Barath Venkatesh" height="58" />
+
 
 <br /><br />
 
